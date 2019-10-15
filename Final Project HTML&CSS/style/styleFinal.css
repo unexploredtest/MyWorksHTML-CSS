@@ -1,0 +1,43 @@
+
+body {
+
+background-color: rgb(253, 212, 66);
+font-size: 20px;
+font-family: Book Antiqua;
+
+}
+
+.center {
+
+text-align: center;
+
+}
+
+.italic {
+
+font-style: italic;
+
+}
+
+h1 {
+
+background-color: orange;
+padding: 5px;
+border-style: solid;
+border-width: 3px;
+border-color: red;
+
+}
+
+h2 {
+
+border-bottom: 3px solid black;
+
+}
+
+h3 {
+
+margin: 0;
+font-size: 90%;
+
+}
