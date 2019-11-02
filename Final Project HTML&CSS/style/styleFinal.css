@@ -4,18 +4,20 @@ body {
 background-color: rgb(253, 212, 66);
 font-size: 20px;
 font-family: Book Antiqua;
+text-align: center;
 
 }
 
 .center {
 
 text-align: center;
+display: block;
 
 }
 
 .italic {
 
-font-style: italic;
+font-style: italic !important;
 
 }
 
@@ -26,6 +28,11 @@ padding: 5px;
 border-style: solid;
 border-width: 3px;
 border-color: red;
+background-image: url(multiverse.jpeg);
+color: green;
+border-top-left-radius: 7.5px;
+border-top-right-radius: 7.5px;
+border-bottom-width: 2px;
 
 }
 
@@ -39,5 +46,61 @@ h3 {
 
 margin: 0;
 font-size: 90%;
+
+}
+
+.video {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+table {
+
+border-collapse: collapse;
+
+}
+
+table, th, td {
+
+border: 2px solid black;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(253, 214, 140)
+
+}
+
+#paragraph1 {
+
+padding: 4px;
+background-color: rgb(225, 181, 115);
+text-align: justify;
+border-width: 3px;
+border-style: solid;
+border-color: rgb(0, 15, 38);
+border-radius: 4px;
+margin-right: 100px;
+margin-left: 100px;
+text-justify: inter-word;
+
+}
+
+a:link {
+
+color: blue;
+
+}
+
+a:visited {
+
+color: gray;
+
+}
+
+a:hover {
+
+color: brown;
 
 }
