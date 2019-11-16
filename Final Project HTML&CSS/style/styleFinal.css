@@ -8,7 +8,7 @@ text-align: center;
 
 }
 
-.center {
+.center, div.join {
 
 text-align: center;
 display: block;
@@ -17,7 +17,7 @@ display: block;
 
 .italic {
 
-font-style: italic !important;
+font-style: italic;
 
 }
 
@@ -33,6 +33,12 @@ color: green;
 border-top-left-radius: 7.5px;
 border-top-right-radius: 7.5px;
 border-bottom-width: 2px;
+
+}
+
+h1:hover {
+
+color: rgb(152,101,248);
 
 }
 
@@ -68,7 +74,7 @@ table, th, td {
 border: 2px solid black;
 margin-left: auto;
 margin-right: auto;
-background-color: rgb(253, 214, 140)
+background-color: rgb(253, 214, 140);
 
 }
 
@@ -76,7 +82,6 @@ background-color: rgb(253, 214, 140)
 
 padding: 4px;
 background-color: rgb(225, 181, 115);
-text-align: justify;
 border-width: 3px;
 border-style: solid;
 border-color: rgb(0, 15, 38);
@@ -84,23 +89,72 @@ border-radius: 4px;
 margin-right: 100px;
 margin-left: 100px;
 text-justify: inter-word;
+text-align: justify;
 
 }
 
-a:link {
+a.hover:link {
 
 color: blue;
 
 }
 
-a:visited {
+a.hover:visited {
 
 color: gray;
 
 }
 
-a:hover {
+a.hover:hover {
 
 color: brown;
+
+}
+
+fieldset {
+
+background-color: rgb(91,221,202);
+border-width: 3px;
+border-style: solid;
+border-color: brown;
+
+}
+
+div.bord {
+
+background-color: rgb(253, 214, 140);
+
+}
+
+a.log_in {
+
+text-align: right;
+display: inline;
+text-decoration: none;
+float: right;
+
+}
+
+a.sign_up {
+
+text-align: left;
+display: inline;
+text-decoration: none;
+float: left;
+
+}
+
+div.join {
+
+margin-left: 10em;
+margin-right: 10em;
+padding: 5px;
+background-color: rgb(145,210,255);
+
+}
+
+h2.jtitle {
+
+border-color: red;
 
 }

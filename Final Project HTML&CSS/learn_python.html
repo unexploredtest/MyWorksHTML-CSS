@@ -31,20 +31,28 @@
 
     <div class="center italic">
 
-      <a href="#firststep"> <h3> First Step </h3> </a> <br>
-      <a href="#resource"> <h3> Resources </h3> </a> <br>
-      <a href="#wpython"> <h3> What is Python? </h3> </a> <br>
-      <a href="#Pythonvs"> <h3> Python vs Other Languages </h3> </a> <br>
-      <a href="#prerequisite"> <h3> The Prerequisites </h3>  </a> <br>
-      <a href="#1step"> <h3> First Steps </h3> </a> <br>
-      <a href="#inform"> <h3> Some Information </h3> </a> <br>
-      <a href="#start"> <h3> Choose when to start </h3> </a> <br>
-      <a href="#next"> <h3> Next Steps </h3> </a> <br>
-      <a href="#sug"> <h3> Have any suggestions on how to improve our websites? </h3> </a>
+      <a class="hover" href="#firststep"> <h3> First Step </h3> </a> <br>
+      <a class="hover" href="#resource"> <h3> Resources </h3> </a> <br>
+      <a class="hover" href="#wpython"> <h3> What is Python? </h3> </a> <br>
+      <a class="hover" href="#Pythonvs"> <h3> Python vs Other Languages </h3> </a> <br>
+      <a class="hover" href="#prerequisite"> <h3> The Prerequisites </h3>  </a> <br>
+      <a class="hover" href="#1step"> <h3> First Steps </h3> </a> <br>
+      <a class="hover" href="#inform"> <h3> Some Information </h3> </a> <br>
+      <a class="hover" href="#start"> <h3> Choose when to start </h3> </a> <br>
+      <a class="hover" href="#next"> <h3> Next Steps </h3> </a> <br>
+      <a class="hover" href="#sug"> <h3> Have any suggestions on how to improve our websites? </h3> </a>
 
     </div>
 
     <h2> <h2>
+
+
+    <div class="bord">
+
+    <a class="sign_up hover" href="sign_log.html"> Sign Up </a>
+    <a class="log_in hover" href="sign_log.html"> Log In </a>
+
+    </div>
 
     <br><br><br><br><br>
 
@@ -60,15 +68,15 @@
 
     <a name="resource" class="center">  Here are some courses I recommend: </a> <br>
 
-    <a href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf8num0GwJbdt0qKoIAxUIG6" class="center">
+    <a class="hover" href="https://www.youtube.com/playlist?list=PLr6-GrHUlVf8num0GwJbdt0qKoIAxUIG6" class="center">
     EJ Media </a>
     <br>
 
-    <a href="https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3" class="center">
+    <a class="hover" href="https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3" class="center">
     Telusko </a>
     <br>
 
-    <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK" class="center">
+    <a class="hover" href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK" class="center">
     The Net Ninja </a>  <br><br><br><br><br><br><br><br><br><br><br><br>
 
     <a name="wpython"> Python is a popular programming language. </a>
@@ -116,7 +124,7 @@
 
     <br>
 
-    <img class="video" src="Materials/bar.png" height=300 width=500 title="Comparing Programming Useres" alt="Chart">
+    <img class="video" src="Materials/bar.png" height=400 width=700 title="Comparing Programming Useres" alt="Chart">
 
 
     <br><br><br><br><br><br><br><br><br><br><br><br>
@@ -165,12 +173,15 @@
         <input type="text" id="name" name="" size="20"> &nbsp
 
         <label for="email"> Email Address: </label>
-        <input type="text" id="email" name="" size="25"> <br> <br>
+        <input type="text" id="email" name="" size="25">
+
+        <label for="password"> Password </label>
+        <input type="text" id="password" size="25"> <br> <br>
 
         <label for="date"> The date you want to start: </label>
         <input type="date" id="date"> &nbsp
 
-        <label for="weeks"> How many weeks to you want to study python?: </label>
+        <label for="weeks"> How many weeks(2-6)?: </label>
         <input type="number" id="weeks" min=2 max=6> <br> <br>
 
         Choose which version of python you would like to learn: <br>
@@ -181,7 +192,7 @@
           <option> Python 2 </option>
 
         </select> <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Sign Up">
 
       </fieldset>
 
@@ -203,13 +214,16 @@
         <legend> Choose what you want to do next: </legend>
 
         <label for="email"> Email Address: </label>
-        <input type="text" id="email" name="" size="25"> <br><br>
+        <input type="text" id="email" name="" size="25">
+
+        <label for="password"> Password </label>
+        <input type="text" id="password" size="25"> <br><br>
 
         Are you majoring in Computer Science, Electrical Engineering or Computer Engineering? &nbsp
         Yes
         <input type="radio" name="yn"> &nbsp
         No
-        <input type="radio" name="yn"> <br>
+        <input type="radio" name="yn"> <br><br>
         Which fields are you considering to master on?: &nbsp
 
         Website
@@ -218,7 +232,7 @@
         <input type="checkbox"> &nbsp Artificial Intelligence
         <input type="checkbox"> <br><br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Log In">
       </fieldset>
 
     </form> <br><br><br><br><br>
